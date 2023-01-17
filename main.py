@@ -5,8 +5,10 @@ import requests
 from deepface import DeepFace
 
 
+ip = input("Ip of esp32-cam : ")
+
 while True:
-    url = f"http://192.168.1.5/capture?_cb={time.time()}"
+    url = f"http://{ip}/capture?_cb={time.time()}"
 
     response = requests.get(url, stream=True)
     with open('img.png', 'wb') as out_file:
@@ -22,7 +24,7 @@ while True:
 
     # print result
     print(result)
-    url = f"http://192.168.1.5/{result['dominant_emotion']}"
+    url = f"http://{ip}/{result['dominant_emotion']}"
     requests.get(url)
     # Press Q on keyboard to exit
     if cv2.waitKey(25) & 0xFF == ord('q'):
