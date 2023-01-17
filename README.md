@@ -2,7 +2,7 @@
 A Bot made with ep32 -  cam || Finds the emotion and lights up leds based on your emotion...
 
 
-##Wiring :
+##  Wiring :
   
   -  2 - HAPPY
   
@@ -14,10 +14,10 @@ A Bot made with ep32 -  cam || Finds the emotion and lights up leds based on you
   
   - 15 - Disgust
 
-##INSTRUCTIONS : 
+##  INSTRUCTIONS : 
 
     - Open the camerawebserver example.
-    
+
     - Replace the code in camerawebserver with the code provided in the repo.
     
     - Upload it
