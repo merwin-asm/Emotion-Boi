@@ -1,6 +1,6 @@
 # Emotion-Boi
 A Bot made with ep32 -  cam || Finds the emotion and lights up leds based on your emotion...
-
+<p align="right"> <img src="https://komarev.com/ghpvc/?username=merwin-emotion-boi&label=Project%20views&color=0e75b6&style=flat" alt="darkmash-org" /> </p>
 
 ##  Wiring :
   
