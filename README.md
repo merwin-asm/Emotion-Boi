@@ -20,6 +20,8 @@ A Bot made with ep32 -  cam || Finds the emotion and lights up leds based on you
 
     - Replace the code in camerawebserver with the code provided in the repo.
     
+    - Put the ssid and pwd of the routterrrrr..
+    
     - Upload it
     
     - Power the esp32
